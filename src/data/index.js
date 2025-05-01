@@ -1,7 +1,6 @@
 import {
-  algorithms,
-  devnotes,
-  oscs,
+  ratchet5Hz,
+  face_detector,
 } from "../assets";
 
 export const navLinks = [
@@ -37,11 +36,15 @@ const experiences = [
 
 const portfolio = [
   {
-    name: "Visually Understanding Algorithms",
-    description:
-      "A showcase of animated algorithms coded using TypeScript, with the video garnering over 400,000 views.",
-    image: algorithms,
+    name: "Magnetically-Driven Colloid Interactions Inducing Ratchet Rotation at the Microscales",
+    description: "Developed a microscale ratchet system ( 10μm) surrounded by 1.25μm paramagnetic colloids. When exposed to an oscillating magnetic field, the colloids form rotating pairs whose interactions with the ratchet structure induce net rotational motion. The work explores indirect actuation mechanisms through collective colloidal behavior, with potential applications in microfluidics and soft microrobotics.",
+    image: ratchet5Hz,
   },
+  {
+    name: "Face detector",
+    description: "A simple real-time face detection application using OpenCV and Haar Cascade classifier.",
+    image: face_detector,
+  }
 ];
 
 export { experiences, portfolio };

@@ -41,12 +41,12 @@ const Navbar = () => {
 
   return (
     <nav
-      className="w-full flex items-center bg-gradient-to-b from-black sm:bg-none p-8 sm:px-16 sm:py-10 fixed z-40 pointer-events-none"
+      className="w-full flex items-center bg-gradient-to-b from-black sm:bg-none p-8 sm:px-16 sm:py-10 fixed z-40"
     >
       <div className='w-full flex justify-between items-start mx-auto'>
         <Link
           to='/'
-          className='flex items-start'
+          className='flex items-start pointer-events-auto'
           onClick={() => {
             setActive("hero");
             window.scrollTo(0, 0);
